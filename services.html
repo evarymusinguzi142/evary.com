@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgLink Kigezi | Services - Farm to Buyer Solutions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background: #fefaf5; color: #1e2a1f; line-height: 1.5; }
+        .container { max-width: 1280px; margin: 0 auto; padding: 0 28px; }
+        header { background: #ffffffec; backdrop-filter: blur(12px); position: sticky; top: 0; z-index: 100; border-bottom: 2px solid #e2e8d5; }
+        .navbar { display: flex; justify-content: space-between; align-items: center; padding: 18px 0; flex-wrap: wrap; gap: 16px; }
+        .logo { font-size: 1.9rem; font-weight: 800; background: linear-gradient(135deg, #2b6e3c, #4c9a2a); -webkit-background-clip: text; background-clip: text; color: transparent; }
+        .logo i { background: none; color: #2b6e3c; margin-right: 6px; }
+        .logo span { font-size: 0.85rem; font-weight: 500; color: #5a7c4e; }
+        .nav-links { display: flex; gap: 32px; list-style: none; }
+        .nav-links a { text-decoration: none; font-weight: 600; color: #2c4b2c; transition: 0.2s; font-size: 1rem; }
+        .nav-links a:hover { color: #4c9a2a; border-bottom: 2px solid #4c9a2a; padding-bottom: 4px; }
+        .btn-outline { background: transparent; border: 1.5px solid #2b6e3c; padding: 8px 20px; border-radius: 40px; font-weight: 600; color: #2b6e3c; transition: 0.2s; text-decoration: none; display: inline-block; }
+        .btn-outline:hover { background: #2b6e3c; color: white; }
+        .btn-primary { background: #2b6e3c; color: white; padding: 12px 32px; border-radius: 40px; font-weight: 700; border: none; cursor: pointer; display: inline-block; text-decoration: none; }
+        .btn-primary:hover { background: #1f562e; transform: translateY(-2px); }
+        .section-title { font-size: 2.3rem; font-weight: 800; text-align: center; margin-bottom: 16px; color: #1e3a1e; margin-top: 40px; }
+        .section-sub { text-align: center; color: #4f6b4a; max-width: 700px; margin: 0 auto 48px auto; font-size: 1.1rem; }
+        .services-grid { display: flex; flex-wrap: wrap; gap: 40px; justify-content: center; margin: 60px 0; }
+        .service-card { background: white; border-radius: 40px; padding: 40px 32px; width: 320px; text-align: center; box-shadow: 0 15px 35px rgba(0,0,0,0.05); border: 1px solid #eef3e7; transition: 0.2s; }
+        .service-card:hover { transform: translateY(-8px); }
+        .service-card i { font-size: 3.5rem; color: #2b6e3c; margin-bottom: 24px; }
+        .service-card h3 { font-size: 1.8rem; margin-bottom: 16px; }
+        .service-card p { color: #4b5e45; margin-bottom: 24px; }
+        .price-tag { font-weight: 800; color: #2b6e3c; font-size: 1.3rem; margin-top: 16px; }
+        .footer { background: #1f2e1c; color: #cfdec8; padding: 36px 0 28px; text-align: center; margin-top: 60px; }
+        .footer a { color: #c0e0b2; text-decoration: none; }
+        @media (max-width: 768px) { .navbar { flex-direction: column; } .nav-links { gap: 20px; flex-wrap: wrap; justify-content: center; } }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo"><i class="fas fa-leaf"></i> AgLink <span>Kigezi</span></div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html" class="active">Services</a></li>
+                    <li><a href="audience.html">Audience</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div><a href="contact.html" class="btn-outline">Get Started</a></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="section-title">Our Services in Kigezi</div>
+        <div class="section-sub">Tailored solutions for farmers, buyers, and the entire agricultural value chain across Kabale, Kisoro, Kanungu & Rukungiri</div>
+        
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-hand-holding-usd"></i>
+                <h3>Direct Selling</h3>
+                <p>Connect directly with hotels, restaurants, and households. No middlemen, better prices for your harvest.</p>
+                <div class="price-tag">Commission: 5% per sale</div>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-truck"></i>
+                <h3>Logistics & Delivery</h3>
+                <p>Reliable last-mile delivery across Kigezi region. We pick from farm to buyer's doorstep.</p>
+                <div class="price-tag">Delivery: Sh200 per trip</div>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>Market Price Alerts</h3>
+                <p>Daily SMS & WhatsApp updates on current market prices for potatoes, beans, maize, Irish potatoes, and vegetables.</p>
+                <div class="price-tag">Free for registered farmers</div>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-users"></i>
+                <h3>Bulk Buyer Subscription</h3>
+                <p>Hotels and traders get premium access, analytics, and priority delivery slots.</p>
+                <div class="price-tag">Subscription: Sh50,000/year</div>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>USSD & Voice Support</h3>
+                <p>Dial *284# to list produce, find buyers, or check prices — works on any phone, even without internet.</p>
+                <div class="price-tag">Free to use (standard rates apply)</div>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-clipboard-list"></i>
+                <h3>Quality Grading</h3>
+                <p>We help grade your produce to meet buyer standards — get better prices for quality harvests.</p>
+                <div class="price-tag">Free for farmers</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <p><i class="fas fa-leaf"></i> Empowering Kigezi farmers with direct market access</p>
+            <p style="margin-top: 12px;">© 2025 AgLink Kigezi | <a href="contact.html">Contact our team</a></p>
+        </div>
+    </div>
+</body>
+</html>
